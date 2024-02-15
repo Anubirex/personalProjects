@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4c4c4c;
+}
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.counter-position {
+    display: block;
+    width: 15rem;
+}
+.counter-position h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.counter-display {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    font-size: 9rem;
+    color: white;
+}
+.counter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+}
+.user-input-position {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    width: 3.75rem;
+    height: 1.5rem;
+    font-size: 1.05rem;
+}
+.increment-update {
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+}

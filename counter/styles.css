@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #4c4c4c;
+    background-color: #242582;
 }
 .counter-container {
     display: flex;
@@ -28,7 +28,7 @@ body {
     height: 10rem;
     width: 100%;
     font-size: 9rem;
-    color: white;
+    color: lime;
 }
 .counter-buttons {
     display: flex;
@@ -42,9 +42,21 @@ body {
 .btn {
     width: 3.75rem;
     height: 1.5rem;
-    font-size: 1.05rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #553D67;
+}
+.btn:hover {
+    background-color: #F64C72;
 }
 .increment-update {
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.5rem;
+    width: 4rem;
+    height: 1.75rem;
+}
+.user-input-position input {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 10rem;
 }

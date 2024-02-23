@@ -23,7 +23,7 @@ showSlide(currentIndex);
 function moveToNextSlide() {
     applyExitAnimation(currentIndex, 'left');
     currentIndex = (currentIndex + 1) % reviewSlides.length;
-    setTimeout(() => showSlide(currentIndex), 500); // Wait for animation to complete
+    setTimeout(() => showSlide(currentIndex), 350); // Wait for animation to complete
     pauseSlideShow();
     startSlideShow();
 }
@@ -31,7 +31,7 @@ function moveToNextSlide() {
 function moveToPrevSlide() {
     applyExitAnimation(currentIndex, 'right');
     currentIndex = (currentIndex - 1 + reviewSlides.length) % reviewSlides.length;
-    setTimeout(() => showSlide(currentIndex), 500); // Wait for animation to complete
+    setTimeout(() => showSlide(currentIndex), 350); // Wait for animation to complete
     pauseSlideShow();
     startSlideShow();
 }

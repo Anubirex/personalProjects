@@ -24,6 +24,9 @@ body {
     color: white;
     box-shadow: 2px 2px 8px black;
 }
+.review-card:hover {
+    cursor: pointer;
+}
 .review-card h2 {
     padding: 2rem 0 1rem 2rem;
 }
@@ -37,3 +40,32 @@ body {
     background-color: #024ec9;
     color: white;
 }
+@keyframes slide-out-left {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-5%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slide-out-right {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(5%);
+      opacity: 0;
+    }
+  }
+  
+  .slide-left {
+    animation: slide-out-left .5s forwards;
+  }
+  
+  .slide-right {
+    animation: slide-out-right .5s forwards;
+  }

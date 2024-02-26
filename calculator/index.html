@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="calc-position">
+            <div class="calc-container" id="calcContainer">
+                <input type="text" class="calculator-display" id="display" disabled>
+                <div class="calculator">
+                    <div>
+                        <div class="clear-key">
+                            <button type="button" class="key-clear" value="clear" onclick="clr()">C</button>
+                            <button type="button" class="dummy"></button>
+                            <button type="button" class="dummy"></button>
+                        </div>
+                        <div class="calculator-keys">
+                            <button type="button" value="7" onclick="dis('7')" onkeydown="myFunction(event)">7</button>
+                            <button type="button" value="8" onclick="dis('8')" onkeydown="myFunction(event)">8</button>
+                            <button type="button" value="9" onclick="dis('9')" onkeydown="myFunction(event)">9</button>
+                            <button type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)">4</button>
+                            <button type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)">5</button>
+                            <button type="button" value="6" onclick="dis('6')" onkeydown="myFunction(event)">6</button>
+                            <button type="button" value="1" onclick="dis('1')" onkeydown="myFunction(event)">1</button>
+                            <button type="button" value="2" onclick="dis('2')" onkeydown="myFunction(event)">2</button>
+                            <button type="button" value="3" onclick="dis('3')" onkeydown="myFunction(event)">3</button>
+                            <button type="button" value="." onclick="dis('.')" onkeydown="myFunction(event)">.</button>
+                            <button type="button" value="0" onclick="dis('0')" onkeydown="myFunction(event)">0</button>
+                            <button type="button" class="key-equal" value="=" onclick="solve()">=</button>
+                        </div>
+                    </div>
+                    <div class="operator-keys">
+                        <button type="button" class="key-operator" value="+" onclick="dis('+')" onkeydown="myFunction(event)">+</button>
+                        <button type="button" class="key-operator" value="-" onclick="dis('-')" onkeydown="myFunction(event)">-</button>
+                        <button type="button" class="key-operator" value="/" onclick="dis('/')" onkeydown="myFunction(event)">/</button>
+                        <button type="button" class="key-operator" value="*" onclick="dis('*')" onkeydown="myFunction(event)">&times;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

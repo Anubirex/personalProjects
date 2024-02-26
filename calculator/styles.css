@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4c4c4c;
+}
+.calc-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.calc-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+}
+.calculator {
+    display: flex;
+}
+.operator-keys {
+    display: flex;
+    flex-wrap: wrap;
+}
+.operator-keys button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+.calculator-display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.calculator-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.clear-key {
+    display: flex;
+    justify-content: space-around;
+}
+.calculator-keys button,
+.key-clear,
+.dummy {
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+.key-clear {
+    background-color: #ff9f9f;
+}
+.dummy {
+    background-color: #fff;
+}
+.calculator-keys button:hover,
+.key-clear:hover,
+.operator-keys button:hover {
+    background-color: #ccc;
+}

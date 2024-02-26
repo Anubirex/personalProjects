@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>To Do List</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="position">
+            <div class="to-do-list">
+                <div class="to-do-title">
+                    <h2>To Do List:</h2>
+                </div>
+                <div class="to-do-body">
+                    <ul id="tasks">
+
+                    </ul>
+                </div>
+                <div class="add-event">
+                    <button class="add-event-button" id="addEventButton">Add New Task</button>
+                </div>
+            </div>
+            <div id="taskModal" class="modal">
+                <div class="modal-position">
+                    <div class="modal-content">
+                        <span class="close-button" id="closeButton">&times;</span>
+                        <h2>Add New Task</h2>
+                        <input type="text" id="modalTaskInput" placeholder="Your Task Here...">
+                        <button id="submitTask">Submit</button>
+                        <button id="cancelTask">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

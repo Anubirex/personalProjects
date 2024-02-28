@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1C2951;
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    max-width: 1200px;
+}
+.nav-bar-design {
+    width: 100vw;
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: rgba( 0, 0, 0, 0.4);
+}
+.nav-bar {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-bar {
+    background-color: rgba( 0, 0, 0, 0.4);
+    padding-bottom: 1rem;
+}
+.line {
+    width: 80%;
+    max-width: 350px;
+    height: 2rem;
+    margin: auto;
+    margin: .5rem auto .5rem auto;
+    border-radius: 5px;
+    background-color: #0080FE;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.line h2 {
+    padding-top: .15rem;
+}
+.logo-position {
+    height: 6rem;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
+    background-color: #1134A6;
+    box-shadow: 1px 1px 5px black;
+}
+.hero {
+    padding: 1rem;
+}
+.hero-title {
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.latest-post-design,
+.featured-post-design {
+    width: 100vw;
+    height: auto;
+}
+.latest-post-position,
+.featured-post-position {
+    margin: auto;
+    max-width: 1200px;
+    height: auto;
+}
+.latest-post-title,
+.featured-post-title {
+    padding: 1rem;
+}
+.latest-posts,
+.featured-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.latest-post,
+.featured-post {
+    width: 90%;
+    max-width: 375px;
+    margin: 1rem .25rem 0 .25rem;
+    height: 15rem;
+    background-color: #0F52BA;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.latest-post:hover,
+.featured-post:hover {
+    background-color: #6693F5;
+}
+.about-author-position,
+.subscribe-position {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.about-author-title,
+.about-author-body {
+    padding: .25rem 1rem .25rem 1rem;
+}
+.about-author-body a {
+    text-decoration: none;
+    color: white;
+}
+.subscribe-design {
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    background-color: #0080FE;
+}
+.video-position {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.video-position h2 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+footer {
+    background-color: rgba( 0, 0, 0, 0.4);
+}
+.footer-position {
+    flex-wrap: wrap;
+}
+.footer-section {
+    height: 15rem;
+    min-width: 300px;
+    max-width: 450px;
+    margin: 1rem .5rem 1rem .5rem;
+    border: 1px solid white;
+}

@@ -21,6 +21,7 @@ submit.addEventListener('click', function() {
     } else {
         document.getElementById('display').value = `Fuck You ${name}`;
         document.getElementById('errorMessage').classList.remove('show');
+        document.getElementById('userName').value = '';
         modalTwo.classList.add('show');
     }
 })

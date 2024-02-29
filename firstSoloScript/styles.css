@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4c4c4c;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: lightseagreen;
+    width: 20rem;
+    height: 10rem;
+    position: fixed;
+    display: none;
+    top: 34%;
+    left: 42%;
+    z-index: 100;
+}
+
+.overlay {
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal-title {
+    width: 100%;
+    height: 3rem;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-input {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-input input {
+    line-height: 1.5rem;
+    width: 80%;
+    font-size: 1.1rem;
+}
+.submit-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-two {
+    background-color: lightblue;
+    width: 20rem;
+    height: 10rem;
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 42%;
+    z-index: 100;
+}
+.results-display {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results-display input {
+    line-height: 2rem;
+    width: 80%;
+    font-size: 1.2rem;
+    color: blue;
+}
+.error-message {
+    position: fixed;
+    top: 47%;
+    left: 44%;
+    z-index: 100;
+    color: red;
+    font-size: 1.5rem;
+    display: none;
+    background-color: white;
+    padding: .25rem;
+}
+.show {
+    display: block;
+}

@@ -65,21 +65,21 @@ body {
 }
 .latest-post img,
 .featured-post img {
-    margin: .5rem;
+    margin: 1rem 1rem 0 1rem;
 }
 .latest-post h3,
 .featured-post h3 {
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    margin: .5rem;
+    margin: .5rem 1rem 0 1rem;
 }
 .latest-post p,
 .featured-post p {
     font-size: 1.1rem;
     color: white;
     text-decoration: none;
-    margin: .5rem;
+    margin: .5rem 1rem 1rem 1rem;
     word-wrap: break-word;
 }
 .latest-post-design,

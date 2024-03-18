@@ -5,6 +5,7 @@
 body {
     background-color: #1C2951;
     color: white;
+    overflow-x: hidden;
 }
 .center {
     display: flex;
@@ -31,10 +32,6 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-}
-.search-bar {
-    background-color: rgba( 0, 0, 0, 0.4);
-    padding-bottom: 1rem;
 }
 .line {
     width: 80%;
@@ -66,6 +63,25 @@ body {
     text-align: center;
     padding-bottom: .5rem;
 }
+.latest-post img,
+.featured-post img {
+    margin: .5rem;
+}
+.latest-post h3,
+.featured-post h3 {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin: .5rem;
+}
+.latest-post p,
+.featured-post p {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    margin: .5rem;
+    word-wrap: break-word;
+}
 .latest-post-design,
 .featured-post-design {
     width: 100vw;
@@ -92,7 +108,7 @@ body {
     width: 90%;
     max-width: 375px;
     margin: 1rem .25rem 0 .25rem;
-    height: 15rem;
+    height: auto;
     background-color: #0F52BA;
     border-radius: 5px;
     box-shadow: 1px 1px 5px black;
@@ -173,4 +189,51 @@ footer {
 }
 .aboutAuthor-section p {
     margin: 1rem;
+}
+.search-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.4);
+    padding-bottom: 1rem;
+}
+.search-bar {
+    width: 100%; /* Full width */
+    max-width: 600px; /* Max width for larger screens */
+    margin: 0 auto; /* Centering */
+}
+.search-results {
+    position: absolute;
+    z-index: 1000; /* Ensures the results appear above other content */
+    width: 100%; /* Or set a specific width */
+    max-width: 300px; /* Match the search bar width for alignment */
+    top: 100%; /* Position it directly below the search bar */
+    margin: auto;
+    background: lightblue; /* Or any color that fits your design */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: Adds a shadow for better visibility over other content */
+    overflow-y: auto; /* Allows scrolling within the container if there are many results */
+    max-height: 300px; /* Adjust based on your needs */
+    color: black;
+}
+.search-results div {
+    color: black;
+    padding: .5rem;
+}
+.search-results a {
+    text-decoration: none;
+}
+.search-results div:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.page-overlay {
+    display: none;
+    position: absolute;
+    top: -20rem;
+    left: 0;
+    width: 100vw;
+    height: 200vh;
+    z-index: 999;
 }

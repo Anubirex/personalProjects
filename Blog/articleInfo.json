@@ -1,0 +1,83 @@
+[
+      {
+        "title": "Home",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "url": "./index.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-01",
+        "tags": ["article 01", "1"],
+        "views": 1100
+      },
+      {
+        "title": "Food",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "url": "./food.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-01",
+        "tags": ["article 01", "1"],
+        "views": 1100
+      },
+      {
+        "title": "Gaming",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "url": "./gaming.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-01",
+        "tags": ["article 01", "1"],
+        "views": 1100
+      },
+      {
+        "title": "article 01",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "url": "./article-01.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-07",
+        "tags": ["article 01", "1"],
+        "views": 1100
+      },
+      {
+        "title": "article 02",
+        "snippet": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        "url": "./article-02.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-06",
+        "tags": ["article 02", "2"],
+        "views": 1100
+      },
+      {
+        "title": "article 03",
+        "snippet": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...",
+        "url": "./article-03.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-05",
+        "tags": ["article 03", "3"],
+        "views": 1100
+      },
+      {
+        "title": "article 04",
+        "snippet": "Nisi ut aliquip ex ea commodo consequat...",
+        "url": "./article-04.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-04",
+        "tags": ["article 04", "4"],
+        "views": 1900
+      },
+      {
+        "title": "article 05",
+        "snippet": "Duis aute irure dolor in reprehenderit in voluptate velit...",
+        "url": "./article-05.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-03",
+        "tags": ["article 05", "5"],
+        "views": 1800
+      },
+      {
+        "title": "article 06",
+        "snippet": "Esse cillum dolore eu fugiat nulla pariatur...",
+        "url": "./article-06.html",
+        "image": "./placeholder.png",
+        "date": "2024-01-02",
+        "tags": ["article 06", "6"],
+        "views": 1700
+      }
+]

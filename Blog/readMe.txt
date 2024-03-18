@@ -11,10 +11,9 @@ add social media links to header section and footer section
     make sure links work
 make the footer section
 make logo and add it to head section
-build a JSONLD script for the search bar to utilize
-    make the JavaScript script for the search bar to make it work
 make a JSONLD for the subscribers list to handle incoming subscribers and save them on a list  
     make a script that auto sends new posts out to the subscriber list
+        MORE COMPLEX THAN A JSON FILE, THIS IS BACKBURNER ITEM TO DO AFTER LAUNCH
 need articles for launch, at least:
     3 articles for latest section
     3 articles for featured posts section

@@ -79,5 +79,14 @@
         "date": "2024-01-02",
         "tags": ["article 06", "6"],
         "views": 1700
+      },
+      {
+        "title": "Helldivers 2: Mastering the Arc Thrower for Galactic Dominance",
+        "snippet": "With the potential to decimate hordes of adversaries swiftly, the arc thrower demands not just knowledge of its power but a mastery of its rhythm. This guide isn't just about wielding a weapon; it's about becoming one with the arc thrower, transforming the battlefield into a stage where you are the undisputed protagonist.",
+        "url": "./HD2_arc_01.html",
+        "image": "./placeholder.png",
+        "date": "2024-03-26",
+        "tags": ["Arc Thrower", "Helldivers 2", "update", "Best Weapon", "Top Damage", "Termanids"],
+        "views": 2000
       }
 ]

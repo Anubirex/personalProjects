@@ -48,10 +48,10 @@ body {
     box-shadow: 1px 1px 5px black;
     text-align: center;
 }
-.logo-position h1 {
+.logo-position h2 {
     color: gold;
     font-size: 2rem;
-}.logo-position h1 span {
+}.logo-position h2 span {
     color: goldenrod;
     font-size: 1.6rem;
 }
@@ -126,7 +126,7 @@ body {
 .art-body-text {
     flex-wrap: wrap;
 }
-.art-hero-text h2 {
+.art-hero-text h1 {
     font-size: 5rem;
     color: gold;
     margin: 2rem 1rem 2rem 1rem;

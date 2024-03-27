@@ -86,7 +86,16 @@
         "url": "./HD2_arc_01.html",
         "image": "./placeholder.png",
         "date": "2024-03-26",
-        "tags": ["Arc Thrower", "Helldivers 2", "update", "Best Weapon", "Top Damage", "Termanids"],
+        "tags": ["article", "gaming"],
         "views": 2000
+      },
+      {
+        "title": "Helldivers 2: A Comprehensive Review from the Frontlines",
+        "snippet": "This critique delves into Arrowhead Game Studios' latest offering, Helldivers 2. The purpose of this review is to articulate my insights and emotions garnered from a substantial amount of time spent in-game. If you're contemplating adding Helldivers 2 to your collection, this evaluation aims to inform your decision.",
+        "url": "./HD2_rev_01.html",
+        "image": "./placeholder.png",
+        "date": "2024-03-27",
+        "tags": ["article", "gaming"],
+        "views": 2200
       }
 ]

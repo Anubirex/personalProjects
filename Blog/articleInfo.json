@@ -90,12 +90,39 @@
         "views": 2000
       },
       {
-        "title": "Helldivers 2: A Comprehensive Review from the Frontlines",
+        "title": "Helldivers 2 Unveiled: My Review after 200+ Hours in Game",
         "snippet": "This critique delves into Arrowhead Game Studios' latest offering, Helldivers 2. The purpose of this review is to articulate my insights and emotions garnered from a substantial amount of time spent in-game. If you're contemplating adding Helldivers 2 to your collection, this evaluation aims to inform your decision.",
         "url": "./HD2_rev_01.html",
         "image": "./placeholder.png",
         "date": "2024-03-27",
         "tags": ["article", "gaming"],
         "views": 2200
+      },
+      {
+        "title": "Helldivers 2: What Makes it so Good?",
+        "snippet": "Having dedicated over 200 hours to Helldivers 2, I've grown eager to dissect the elements that elevate this game to a pinnacle of achievement within the action shooter category. This review aims to unravel the myriad factors that, in synergy, position this title not just as a success but as a benchmark in the gaming industry.",
+        "url": "./HD2_rev_02.html",
+        "image": "./placeholder.png",
+        "date": "2024-03-28",
+        "tags": ["article", "gaming"],
+        "views": 2100
+      },
+      {
+        "title": "Helldivers 2 Has a Big Problem",
+        "snippet": "The concern I'm highlighting revolves around the apparent absence of endgame content in Helldivers 2. Upon reaching level 50, players are faced with a familiar routine, similar to what they have experienced throughout the previous 49 levels. This issue is critical, as the longevity of live service games often hinges on their endgame offerings.",
+        "url": "./HD2_prob_01.html",
+        "image": "./placeholder.png",
+        "date": "2024-03-28",
+        "tags": ["article", "gaming"],
+        "views": 2300
+      },
+      {
+        "title": "Helldivers 2 Multiplayer Has a Problem",
+        "snippet": "The issue at hand concerns the current system of lobby hosting in Helldivers 2 managed by Arrowhead Game Studios, where hosts wield excessive control, including the ability to eject players arbitrarily and without recourse, coupled with the lack of host migration if the original host disconnects. These flaws can severely degrade the gaming experience.",
+        "url": "./HD2_host_01.html",
+        "image": "./placeholder.png",
+        "date": "2024-03-28",
+        "tags": ["article", "gaming"],
+        "views": 2400
       }
 ]
